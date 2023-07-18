@@ -2,6 +2,7 @@
 #include <stdint.h>
 #include <arpa/inet.h>
 
+
 uint32_t read_number(FILE* file) {
     uint32_t number;
     fread(&number, sizeof(uint32_t), 1, file);
